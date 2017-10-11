@@ -34,13 +34,13 @@ url设置过期时间是很有必要的，我们可以在我们的数据中加�
 ![忘记密码](https://github.com/page1990/email_reset_password/blob/master/imgs/forget_password_link.png)
 
 ### 输入注册邮箱地址
-![输入邮箱地址](https://ws1.sinaimg.cn/large/005B3DIrgy1fke9p2nhwej309u06mgll.jpg)
+![输入邮箱地址](https://github.com/page1990/email_reset_password/blob/master/imgs/%E8%BE%93%E5%85%A5%E9%82%AE%E7%AE%B1.png)
 
 邮件地址有错误
-![输入邮箱报错](https://ws1.sinaimg.cn/large/005B3DIrgy1fke9qjprhyj30a70913ym.jpg)
+![输入邮箱报错](https://github.com/page1990/email_reset_password/blob/master/imgs/%E8%BE%93%E5%85%A5%E9%82%AE%E7%AE%B1%E6%8A%A5%E9%94%99.png)
 
 邮件地址OK
-![发送邮件成功](https://ws1.sinaimg.cn/large/005B3DIrgy1fke9rvq48ij30a508mt8t.jpg)
+![发送邮件成功](https://github.com/page1990/email_reset_password/blob/master/imgs/%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6%E6%88%90%E5%8A%9F.png)
 
 ### 后台构造重置url
 ```
@@ -61,7 +61,7 @@ send_mail(url, to_user)
 ```
 
 ### 去注册邮箱查看重置密码url
-![重置密码链接](https://ws1.sinaimg.cn/large/005B3DIrgy1fke9u0g1zrj30if04cweh.jpg)
+![重置密码链接](https://github.com/page1990/email_reset_password/blob/master/imgs/%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81%E9%93%BE%E6%8E%A5.png)
 
 ### 后台检测用户点击url的合法性
 用户通过邮件里面的重置链接，进入到重置密码页面之前，后台需要检测这个url的合法性
@@ -77,11 +77,11 @@ if token:
 
 
 链接失效的例子
-![链接失效](https://ws1.sinaimg.cn/large/005B3DIrgy1fkeaez4b7uj30ld040747.jpg)
+![链接失效](https://github.com/page1990/email_reset_password/blob/master/imgs/%E9%93%BE%E6%8E%A5%E5%A4%B1%E6%95%88.png)
 
 
 ### 重置密码
-![重置密码](https://ws1.sinaimg.cn/large/005B3DIrgy1fke9vet5guj309y082dfr.jpg)
+![重置密码](https://github.com/page1990/email_reset_password/blob/master/imgs/%E5%BC%80%E5%A7%8B%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81.png)
 
 用户重置密码的请求，也需要在后台再次检测一次改url的合法性
 ```
