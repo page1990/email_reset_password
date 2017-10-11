@@ -31,7 +31,7 @@ url设置过期时间是很有必要的，我们可以在我们的数据中加�
 
 ### 忘记密码的链接
 在登录页面添加一个忘记密码的链接
-![忘记密码](https://ws1.sinaimg.cn/large/005B3DIrgy1fke6jn3omfj30ag0970ss.jpg)
+![忘记密码](https://github.com/page1990/email_reset_password/blob/master/imgs/forget_password_link.png)
 
 ### 输入注册邮箱地址
 ![输入邮箱地址](https://ws1.sinaimg.cn/large/005B3DIrgy1fke9p2nhwej309u06mgll.jpg)
